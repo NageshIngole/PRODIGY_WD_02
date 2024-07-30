@@ -411,6 +411,20 @@ nav {
   transform: scale(1.05);
   border-color: #212429;
 }
+/* ========footer=========== */
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #555;
+
+  color: white;
+}
+footer a {
+  color: aliceblue;
+}
+footer a:hover {
+  color: #f25d7d;
+}
 
 @media (width > 768px) {
   nav {
@@ -489,6 +503,10 @@ nav {
   .contact-form button {
     width: 20vw;
   }
+  footer {
+    background-color: #f25d7d;
+  }
+
 
   /*============= Abaut============= */
   .main {
